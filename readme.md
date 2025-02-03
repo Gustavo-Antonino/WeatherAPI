@@ -1,6 +1,6 @@
 🌦️ API de Previsão do Tempo
 
-API simples para consultar previsões do tempo usando a HG Weather API, salvar previsões no banco de dados H2 e gerenciar registros via endpoints REST.
+API para consultar previsões do tempo usando a HG Weather API, salvar previsões no banco de dados H2 e gerenciar registros via endpoints REST.
 
 📌 Tecnologias Utilizadas
 
