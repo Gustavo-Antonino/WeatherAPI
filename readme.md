@@ -21,9 +21,9 @@ Endpoints Disponíveis
     Método	        Endpoint	                  
     GET	   /weather/current?city={city} (Obtém previsão atual de uma cidade)
     GET	   /weather/forecast?city={city} (Obtém previsão dos próximos dias)
-    POST     /weather/save (Salva uma previsão no banco)
+    POST       /weather/save (Salva uma previsão no banco)
     GET	   /weather/all	 (Lista todas as previsões salvas)
     GET	   /weather/{id} (Busca uma previsão pelo ID)
     PUT	   /weather/{id} (Atualiza uma previsão)
-    DELETE   /weather/{id} (Remove uma previsão)
+    DELETE     /weather/{id} (Remove uma previsão)
     GET	   /weather/history?city={city} (Lista previsões salvas para uma cidade)
