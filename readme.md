@@ -18,12 +18,12 @@ API para consultar previsões do tempo usando a HG Weather API, salvar previsõe
 
 Endpoints Disponíveis
 
-    Método	Endpoint	Descrição
-    GET	/weather/current?city={city}	Obtém previsão atual de uma cidade
-    GET	/weather/forecast?city={city}	Obtém previsão dos próximos dias
-    POST	/weather/save	Salva uma previsão no banco
-    GET	/weather/all	Lista todas as previsões salvas
-    GET	/weather/{id}	Busca uma previsão pelo ID
-    PUT	/weather/{id}	Atualiza uma previsão
-    DELETE	/weather/{id}	Remove uma previsão
-    GET	/weather/history?city={city}	Lista previsões salvas para uma cidade
+    Método	     Endpoint	                  Descrição
+    GET	   /weather/current?city={city}	  Obtém previsão atual de uma cidade
+    GET	   /weather/forecast?city={city}  Obtém previsão dos próximos dias
+    POST   /weather/save	              Salva uma previsão no banco
+    GET	   /weather/all	                  Lista todas as previsões salvas
+    GET	   /weather/{id}	              Busca uma previsão pelo ID
+    PUT	   /weather/{id}	              Atualiza uma previsão
+    DELETE /weather/{id}	              Remove uma previsão
+    GET	   /weather/history?city={city}	  Lista previsões salvas para uma cidade
