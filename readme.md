@@ -18,7 +18,7 @@ API para consultar previsões do tempo usando a HG Weather API, salvar previsõe
 
 Endpoints Disponíveis
 
-    Método	     Endpoint	                  Descrição
+    Método	        Endpoint	                  
     GET	   /weather/current?city={city}	  Obtém previsão atual de uma cidade
     GET	   /weather/forecast?city={city}  Obtém previsão dos próximos dias
     POST   /weather/save	              Salva uma previsão no banco
